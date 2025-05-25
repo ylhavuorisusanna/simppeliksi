@@ -21,7 +21,7 @@ Käyttö
 - Sovelluksen etusivulla näet listan poistetuista tavaroista.
 - "+"-painikkeella voit lisätä uuden tavaran.
 - Tilastot-näkymässä voit tarkastella poistojen määriä erilaisissa taulukoissa/kaavioissa sekä asettaa myös oman tavoitteen tavaroiden karsimiseen
-- Yläpalkin valikosta voit tehdä varmuuskopion tai palautuksen tiedoista, sekä halutessasi synkronoida Firebaseen.
+- Yläpalkin valikosta voit tehdä varmuuskopion tai palautuksen tiedoista
 
 Teknologiat
 
