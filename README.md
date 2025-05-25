@@ -6,8 +6,8 @@ Tämä on Flutter-sovellus, jolla voit seurata, mitä tavaroita olet poistanut k
 ## Ominaisuudet
 
 - Lisää poistettuja tavaroita kategoria- ja päivämäärätietoineen
-- Katso tilastoja poistetuista tavaroista kuukausittain ja vuosittain
-- Mahdollisuus varmuuskopioida ja palauttaa tietokanta JSON-tiedostona
+- Katso tilastoja poistetuista tavaroista
+- Mahdollisuus varmuuskopioida ja palauttaa tietokanta JSON-tiedostona (siirtää uuteen puhelimeen manuaalisesti)
 - Toimii paikallisesti SQLite-tietokannan avulla
 
 ## Asennus
