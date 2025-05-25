@@ -16,18 +16,18 @@ Tämä on Flutter-sovellus, jolla voit seurata, mitä tavaroita olet poistanut k
 2. Kloonaa tämä repository tai lataa lähdekoodi
 3. Avaa projekti Flutter-ystävällisessä editorissa kuten Android Studio tai VS Code
 
-Käyttö
+## Käyttö
 
 - Sovelluksen etusivulla näet listan poistetuista tavaroista.
 - "+"-painikkeella voit lisätä uuden tavaran.
 - Tilastot-näkymässä voit tarkastella poistojen määriä erilaisissa taulukoissa/kaavioissa sekä asettaa myös oman tavoitteen tavaroiden karsimiseen
 - Yläpalkin valikosta voit tehdä varmuuskopion tai palautuksen tiedoista
 
-Teknologiat
+## Teknologiat
 
 - Flutter
 - SQLite (paikallinen tietokanta)
 
-Lisenssi
+## Lisenssi
 
 Tämä projekti on henkilökohtaiseen käyttöön. Ei kaupalliseen levitykseen ilman lupaa.
