@@ -1,16 +1,33 @@
-# karsinta
+# simppeliksi
 
-A new Flutter project.
 
-## Getting Started
+Tämä on Flutter-sovellus, jolla voit seurata, mitä tavaroita olet poistanut käytöstä tai heittänyt pois. Sovellus auttaa seuraamaan ylimääräisien tavaroiden karsimista.
 
-This project is a starting point for a Flutter application.
+## Ominaisuudet
 
-A few resources to get you started if this is your first Flutter project:
+- Lisää poistettuja tavaroita kategoria- ja päivämäärätietoineen
+- Katso tilastoja poistetuista tavaroista kuukausittain ja vuosittain
+- Mahdollisuus varmuuskopioida ja palauttaa tietokanta JSON-tiedostona
+- Toimii paikallisesti SQLite-tietokannan avulla
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Asennus
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Varmista, että sinulla on Flutter asennettuna: https://flutter.dev/docs/get-started/install
+2. Kloonaa tämä repository tai lataa lähdekoodi
+3. Avaa projekti Flutter-ystävällisessä editorissa kuten Android Studio tai VS Code
+
+Käyttö
+
+- Sovelluksen etusivulla näet listan poistetuista tavaroista.
+- "+"-painikkeella voit lisätä uuden tavaran.
+- Tilastot-näkymässä voit tarkastella poistojen määriä erilaisissa taulukoissa/kaavioissa sekä asettaa myös oman tavoitteen tavaroiden karsimiseen
+- Yläpalkin valikosta voit tehdä varmuuskopion tai palautuksen tiedoista, sekä halutessasi synkronoida Firebaseen.
+
+Teknologiat
+
+- Flutter
+- SQLite (paikallinen tietokanta)
+
+Lisenssi
+
+Tämä projekti on henkilökohtaiseen käyttöön. Ei kaupalliseen levitykseen ilman lupaa.
