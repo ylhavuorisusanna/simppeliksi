@@ -306,7 +306,7 @@ class StuffPageState extends State<StuffPage> {
 //jokaiselle riville tulee tavaran nimi, kategoria, päivä sekä poista- ja editointinappulat,
 //mikäli syöttikin väärän tavaran tai haluaa muokata sitä
                 return ListTile(
-                  leading: Icon(getCategoryIcon(category!), size: 35),
+                  leading: Icon(getCategoryIcon(category?? 'default'), size: 35),
                   title: Text(
                     item,
                     style: TextStyle(fontSize: 18),

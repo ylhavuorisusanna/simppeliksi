@@ -23,16 +23,11 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    testDatabase();
+    
     _loadCategories();
   }
 
-  Future<void> testDatabase() async {
-  final db = await DatabaseHelper.instance.database;
   
-  final categories = await db.query('categories');
-  
-}
 
 //haetaan kategoriat tietokannasta
   Future<void> _loadCategories() async {
