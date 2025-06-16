@@ -29,14 +29,14 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> testDatabase() async {
   final db = await DatabaseHelper.instance.database;
-  print("Tietokanta polku: ${db.path}");
+  
   final categories = await db.query('categories');
-  print('Testi kategoriat: $categories');
+  
 }
 
 //haetaan kategoriat tietokannasta
   Future<void> _loadCategories() async {
-    print('Ladataan kategoriat...');
+    
   final db = await DatabaseHelper.instance.database;
   final categories = await db.query('categories');
   debugPrint('Ladatut kategoriat: $categories');
